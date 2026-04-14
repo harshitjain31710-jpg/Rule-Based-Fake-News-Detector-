@@ -1,3 +1,4 @@
+with open("data/unprocessed_data.txt", "r") as file:
 # Import keyword lists from rules file
 from rules import CLICKBAIT_WORDS, SUSPICIOUS_PHRASES, EMOTIONAL_PHRASES
 
