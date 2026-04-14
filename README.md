@@ -1,6 +1,6 @@
-# 📰 Rule-Based Fake News Detector
+#  Rule-Based Fake News Detector
 
-## 📌 Overview
+##  Overview
 
 This project is a **rule-based Fake News Detector** that identifies potentially misleading or fake content based on common patterns found in clickbait and suspicious text.
 
@@ -8,7 +8,7 @@ Instead of using machine learning, this system relies on **handcrafted rules and
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 To understand the fundamentals of:
 
@@ -18,11 +18,11 @@ To understand the fundamentals of:
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 The system analyzes input text and assigns a **score** based on predefined fake news indicators.
 
-### 🚩 Indicators Used
+###  Indicators Used
 
 1. **Clickbait Words**
 
@@ -50,7 +50,7 @@ The system analyzes input text and assigns a **score** based on predefined fake 
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 ### Step 1: Input
 
@@ -88,7 +88,7 @@ else:
 
 ---
 
-## 🧪 Example
+##  Example
 
 ### Input:
 
@@ -109,7 +109,7 @@ Reasons:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 fake-news-detector/
@@ -122,7 +122,7 @@ fake-news-detector/
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Rule-based classification (no ML required)
 * Explainable output (why it’s fake)
@@ -131,7 +131,7 @@ fake-news-detector/
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 * No real understanding of context
 * Can be fooled by cleverly written fake news
@@ -140,7 +140,7 @@ fake-news-detector/
 
 ---
 
-## 🔥 Future Improvements
+##  Future Improvements
 
 * Add sentiment analysis
 * Use TF-IDF or basic ML models
@@ -150,7 +150,7 @@ fake-news-detector/
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 
 * How classification systems work
 * Importance of feature engineering
@@ -158,13 +158,13 @@ fake-news-detector/
 
 ---
 
-## 💡 Conclusion
+##  Conclusion
 
 This project is a great starting point for understanding how fake news detection works at a fundamental level. While simple, it lays the groundwork for more advanced NLP and machine learning systems.
 
 ---
 
-## 🙌 Acknowledgment
+##  Acknowledgment
 
 Inspired by common patterns observed in clickbait and misleading online content.
 
