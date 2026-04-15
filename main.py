@@ -95,9 +95,10 @@ def calculate_score(clickbait, suspicious, emotional, punctuation, caps):
 def classify(score):
     THRESHOLD = 5  # If score is 5 or more, mark as fake
     if score >= THRESHOLD:
-        return "🚨 Fake News (High Probability)"
+        return " Fake News (High Probability)"
     else:
-        return "✅ Likely Real News"
+        return "✅
+ Likely Real News"
 
 
 # Main function to run full detection
@@ -129,15 +130,15 @@ def detect_fake_news(text):
     # Get final result
     result = classify(score)
 
-    print(f"📊 Score: {score}")
-    print(f"🏷️  Result: {result}\n")
+    print(f"Score: {score}")
+    print(f" Result: {result}\n")
 
     # Print reasons if any found
     if reasons:
-        print("🔍 Reasons:")
+        print( Reasons:")
         for i, reason in enumerate(reasons, 1):
             print(f"  {i}. {reason}")
     else:
-        print("🔍 No fake indicators found.")
+        print(" No fake indicators found.")
 
     print("\n" + "="*55 + "\n")
