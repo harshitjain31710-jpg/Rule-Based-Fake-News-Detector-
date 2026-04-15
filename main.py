@@ -97,8 +97,7 @@ def classify(score):
     if score >= THRESHOLD:
         return " Fake News (High Probability)"
     else:
-        return "✅
- Likely Real News"
+        return "Likely Real News"
 
 
 # Main function to run full detection
@@ -106,7 +105,7 @@ def detect_fake_news(text):
     print("\n" + "="*55)
     print("       RULE-BASED FAKE NEWS DETECTOR")
     print("="*55)
-    print(f"\n📰 Input Text:\n\"{text}\"\n")
+    print(f"\nInput Text:\n\"{text}\"\n")
 
     # Preprocess text
     original, lowered, tokens = preprocess(text)
